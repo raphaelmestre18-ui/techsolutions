@@ -1,0 +1,19 @@
+1- créer un  repository (sur GitHub)
+
+on l'appelle techsolutions
+
+2- renommer techsolutions techsolutions_pc
+3- lancer terminal cd\xampp\htdocs
+4-git clone https://github
+5-deplacer fichier techsolutiuons_pc dans techsolutions
+6-cd techsolutions
+7-GIT ADD .
+8- git commit -m "message"
+9- git push origin main
+
+Pour sauvegarder bdd : 
+
+aller dans php my admin
+aller dans la bdd de techsolutions
+cliquer sur exporter
+mettre fichier dans techsolutions/bdd
