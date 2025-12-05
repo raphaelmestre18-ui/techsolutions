@@ -16,15 +16,15 @@
     </div>
 
     <nav class="main-nav" aria-label="Navigation principale">
-      <a href="TS.HTML" class="nav-link active">Accueil</a>
-      <a href="Services.html" class="nav-link">Services</a>
-      <a href="Actualites.html" class="nav-link">Actualités</a>
-      <a href="Contact.html" class="nav-link">Contact</a>
+      <a href="TS.php" class="nav-link active">Accueil</a>
+      <a href="Services.php" class="nav-link">Services</a>
+      <a href="Actualites.php" class="nav-link">Actualités</a>
+      <a href="Contact.php" class="nav-link">Contact</a>
     </nav>
 
     <div class="header-actions">
       <a href="#" class="link-muted">Espace Client</a>
-      <a href="#" class="btn btn-primary">Admin</a>
+      <a href="admin_login.php" class="btn btn-primary">Admin</a>
     </div>
   </div>
 </header>

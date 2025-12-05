@@ -16,10 +16,10 @@
       </div>
 
       <nav class="main-nav" aria-label="Navigation principale">
-        <a href="TS.HTML" class="nav-link">Accueil</a>
-        <a href="Services.html" class="nav-link">Services</a>
-        <a href="Actualites.html" class="nav-link active">Actualités</a>
-        <a href="Contact.html" class="nav-link">Contact</a>
+        <a href="TS.php" class="nav-link">Accueil</a>
+        <a href="Services.php" class="nav-link">Services</a>
+        <a href="Actualites.php" class="nav-link active">Actualités</a>
+        <a href="Contact.php" class="nav-link">Contact</a>
       </nav>
 
       <div class="header-actions">
