@@ -1,0 +1,6 @@
+
+if [$nombre//2 -eq 0]; then
+    echo "le numero $nombre est pair."
+else
+    echo "le numero $nombre est impare."
+fi 

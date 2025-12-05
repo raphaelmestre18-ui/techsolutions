@@ -7,7 +7,13 @@ html,body{height:100%; margin:0; font-family: "Inter", "Segoe UI", Arial, sans-s
 .site-header{background:#fff; border-bottom:1px solid rgba(15,23,36,0.06)}
 .header-inner{display:flex; align-items:center; justify-content:space-between; height:72px}
 .brand{display:flex; align-items:center; gap:12px}
-.brand-badge{width:44px; height:44px; background:linear-gradient(135deg,#3b6df5,#2b44d6); color:#fff; display:flex; align-items:center; justify-content:center; border-radius:10px; font-weight:700}
+.brand-logo {
+  height:40px;   /* ajuster la taille selon besoin */
+  width:auto;
+  display:block;
+  vertical-align:middle;
+}
+.brand .brand-badge { display:none; } /* au cas où il reste des occurrences */
 .brand-name{font-weight:600; font-size:18px}
 .main-nav{display:flex; gap:24px; align-items:center}
 .nav-link{color:#0f1724; text-decoration:none; font-weight:500; opacity:0.9}
