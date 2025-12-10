@@ -90,7 +90,7 @@ CREATE TABLE `pc_components` (
 
 LOCK TABLES `pc_components` WRITE;
 /*!40000 ALTER TABLE `pc_components` DISABLE KEYS */;
-INSERT INTO `pc_components` VALUES (1,63),(1,80),(2,1),(2,2),(2,3),(2,4),(2,5),(3,1),(3,2),(3,3),(3,4),(3,5);
+INSERT INTO `pc_components` VALUES (1,51),(1,55),(1,62),(1,69),(1,74),(1,78),(1,85),(1,90),(2,53),(2,56),(2,68),(2,72),(2,83),(2,89),(3,43),(3,56),(3,67),(3,71),(3,74),(3,79),(3,88),(3,92),(4,50),(4,60),(4,68),(4,72),(4,89),(6,44),(6,59),(6,63),(6,71),(6,75),(6,80),(6,87),(6,91),(8,49),(8,57),(8,63),(8,70),(8,75),(8,78),(8,86),(8,90);
 /*!40000 ALTER TABLE `pc_components` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -116,7 +116,7 @@ CREATE TABLE `pcs` (
 
 LOCK TABLES `pcs` WRITE;
 /*!40000 ALTER TABLE `pcs` DISABLE KEYS */;
-INSERT INTO `pcs` VALUES (1,'PC_Dev','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2J6aUztWX09xF2H190IPT1kMdKFdNxgSaHw&s',549.00),(2,'PC_Designer','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgvucb0UTmwctGun2S_hAc9EB4R4Y6rCPr1Q&s',779.00),(3,'PC_ADMIN','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHgaivb3H9jN_8sQD-DH_EnTCnSHY_EFMzPg&s',999.00),(4,'PC_RSS','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7eL6lOs97d6qYJbNvXBeIEdAPL7MGqzfN6w&s',600.00),(6,'pc_direction','https://media.ldlc.com/r1600/ld/products/00/05/21/67/LD0005216778_2.jpg',600.00),(8,'PC_DESIGNER','https://media.ldlc.com/r1600/ld/products/00/05/21/67/LD0005216778_2.jpg',1500.00);
+INSERT INTO `pcs` VALUES (1,'PC_Dev','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2J6aUztWX09xF2H190IPT1kMdKFdNxgSaHw&s',549.00),(2,'PC_Marketing','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgvucb0UTmwctGun2S_hAc9EB4R4Y6rCPr1Q&s',779.00),(3,'PC_ADMIN','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHgaivb3H9jN_8sQD-DH_EnTCnSHY_EFMzPg&s',999.00),(4,'PC_RSS','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7eL6lOs97d6qYJbNvXBeIEdAPL7MGqzfN6w&s',600.00),(6,'pc_direction','https://media.ldlc.com/r1600/ld/products/00/05/21/67/LD0005216778_2.jpg',600.00),(8,'PC_DESIGNER','https://media.ldlc.com/r1600/ld/products/00/05/21/67/LD0005216778_2.jpg',1500.00);
 /*!40000 ALTER TABLE `pcs` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -129,4 +129,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-12-10  9:18:41
+-- Dump completed on 2025-12-10 10:42:53
