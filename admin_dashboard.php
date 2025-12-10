@@ -66,10 +66,11 @@ $admin_name = $_SESSION['admin_username'] ?? 'Admin';
     <div class="centrage_div">
       <p>
         <a href="?pc=1" class="boutton">PC DEV</a>
-        <a href="?pc=2" class="boutton">PC Designer</a>
+        <a href="?pc=2" class="boutton">PC Marketing</a>
         <a href="?pc=3" class="boutton">PC ADMIN</a>
-        <a href="?pc=8" class="boutton">PC Direction</a>
+        <a href="?pc=8" class="boutton">PC Designer</a>
         <a href="?pc=4" class="boutton">PC RH</a>
+        <a href="?pc=6" class="boutton">PC Direction</a>
       </p>
     </div>
 
