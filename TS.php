@@ -8,26 +8,7 @@
 </head>
 <body> 
 
-<header class="site-header">
-  <div class="container header-inner">
-    <div class="brand">
-      <img src="IMG/LogoTechsolutions.png" alt="TechSolutions" class="brand-logo">
-      
-    </div>
-
-    <nav class="main-nav" aria-label="Navigation principale">
-      <a href="TS.php" class="nav-link active">Accueil</a>
-      <a href="Services.php" class="nav-link">Services</a>
-      <a href="Actualites.php" class="nav-link">Actualités</a>
-      <a href="Contact.php" class="nav-link">Contact</a>
-    </nav>
-
-    <div class="header-actions">
-      <a href="#" class="link-muted">Espace Client</a>
-      <a href="admin_login.php" class="btn btn-primary">Admin</a>
-    </div>
-  </div>
-</header>
+<?php include 'header.php'; ?>
 
 <main>
   <section class="hero">

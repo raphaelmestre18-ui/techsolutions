@@ -8,26 +8,7 @@
 </head>
 <body>
 
-  <header class="site-header">
-    <div class="container header-inner">
-      <div class="brand">
-        <img src="IMG/LogoTechsolutions.png" alt="TechSolutions" class="brand-logo">
-        
-      </div>
-
-      <nav class="main-nav" aria-label="Navigation principale">
-        <a href="TS.php" class="nav-link">Accueil</a>
-        <a href="Services.php" class="nav-link">Services</a>
-        <a href="Actualites.php" class="nav-link active">Actualités</a>
-        <a href="Contact.php" class="nav-link">Contact</a>
-      </nav>
-
-      <div class="header-actions">
-        <a href="#" class="link-muted">Espace Client</a>
-        <a href="#" class="btn btn-primary">Admin</a>
-      </div>
-    </div>
-  </header>
+  <?php include 'header.php'; ?>
 
   <main class="contenu_principal">
     <section class="actualites-hero">
@@ -44,7 +25,7 @@
 
         <div class="grid-articles">
           <article class="article-card">
-            <img src="IMG/article1.jpg" alt="Lancement cloud">
+            <img src="IMG/Cloud.jpg" alt="Lancement cloud">
             <div class="article-body">
               <div class="meta">📅 1 novembre 2025   •   Produits</div>
               <h3>Lancement de notre nouvelle solution Cloud</h3>
@@ -53,7 +34,16 @@
           </article>
 
           <article class="article-card">
-            <img src="IMG/article2.jpg" alt="IA tendances">
+            <img src="IMG/Cloud.jpg" alt="Lancement cloud (visuel alternatif)">
+            <div class="article-body">
+              <div class="meta">📅 1 novembre 2025   •   Produits</div>
+              <h3>Lancement de notre nouvelle solution Cloud (version illustrée)</h3>
+              <p>Une vue détaillée de notre solution cloud et des bénéfices pour nos clients.</p>
+            </div>
+          </article>
+
+          <article class="article-card">
+            <img src="IMG/AI.png" alt="IA tendances">
             <div class="article-body">
               <div class="meta">📅 28 octobre 2025   •   Tendances</div>
               <h3>Intelligence Artificielle : Les tendances 2025</h3>

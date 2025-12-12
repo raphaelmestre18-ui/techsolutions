@@ -78,9 +78,7 @@ $admin_name = $_SESSION['admin_username'] ?? 'Admin';
 
     <?php if ($pc): ?>
       <img src="<?php echo htmlspecialchars($pc['image_url']); ?>" alt="Image" class="centrage_image">
-      <div class="rectangle">
-        <p class="Prix">Prix : <?php echo number_format((float)$pc['price'], 2, ',', ' '); ?> €</p>
-      </div>
+      <!-- Prix retiré sur demande -->
 
       <h2>Composants</h2>
       <?php if (!empty($components)): ?>

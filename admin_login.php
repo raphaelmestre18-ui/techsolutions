@@ -142,7 +142,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </nav>
 
     <div class="actions">
-      <a href="#" style="color:#7b7f8a; text-decoration:none; margin-right:8px;">Espace Client</a>
       <a href="admin_login.php" style="background:#ffffff; padding:8px 14px; border-radius:10px; box-shadow:0 8px 20px rgba(46,52,151,0.12); text-decoration:none; color:#24307a; font-weight:700;">Admin</a>
     </div>
   </header>

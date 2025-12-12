@@ -116,7 +116,7 @@ CREATE TABLE `pcs` (
 
 LOCK TABLES `pcs` WRITE;
 /*!40000 ALTER TABLE `pcs` DISABLE KEYS */;
-INSERT INTO `pcs` VALUES (1,'PC_Dev','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2J6aUztWX09xF2H190IPT1kMdKFdNxgSaHw&s',549.00),(2,'PC_Marketing','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgvucb0UTmwctGun2S_hAc9EB4R4Y6rCPr1Q&s',779.00),(3,'PC_ADMIN','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHgaivb3H9jN_8sQD-DH_EnTCnSHY_EFMzPg&s',999.00),(4,'PC_RH','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7eL6lOs97d6qYJbNvXBeIEdAPL7MGqzfN6w&s',600.00),(6,'pc_direction','https://media.ldlc.com/r1600/ld/products/00/05/21/67/LD0005216778_2.jpg',600.00),(8,'PC_DESIGNER','https://media.ldlc.com/r1600/ld/products/00/05/21/67/LD0005216778_2.jpg',1500.00);
+INSERT INTO `pcs` VALUES (1,'PC_Dev','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2J6aUztWX09xF2H190IPT1kMdKFdNxgSaHw&s',0.00),(2,'PC_Marketing','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgvucb0UTmwctGun2S_hAc9EB4R4Y6rCPr1Q&s',779.00),(3,'PC_ADMIN','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHgaivb3H9jN_8sQD-DH_EnTCnSHY_EFMzPg&s',999.00),(4,'PC_RH','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7eL6lOs97d6qYJbNvXBeIEdAPL7MGqzfN6w&s',600.00),(6,'pc_direction','https://media.ldlc.com/r1600/ld/products/00/05/21/67/LD0005216778_2.jpg',600.00),(8,'PC_DESIGNER','https://media.ldlc.com/r1600/ld/products/00/05/21/67/LD0005216778_2.jpg',1500.00);
 /*!40000 ALTER TABLE `pcs` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -129,4 +129,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-12-10 11:03:30
+-- Dump completed on 2025-12-12 11:43:31

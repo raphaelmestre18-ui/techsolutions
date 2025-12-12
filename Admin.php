@@ -24,7 +24,7 @@ $components = $pdo->query("SELECT c.name FROM pc_components pc JOIN components c
   <?php if ($pc): ?>
     <img src="<?php echo $pc['image_url']; ?>" alt="Image" class="centrage_image">
     <div class="rectangle">
-    <p class="Prix" >Prix : <?php echo number_format((float)$pc['price'], 2, ',', ' '); ?> €</p>
+    
     </div>
     <h2>Composants</h2>
     <ul>
