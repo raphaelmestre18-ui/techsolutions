@@ -17,8 +17,8 @@
         <h1>Solutions Technologiques Innovantes pour Votre Entreprise</h1>
         <p class="lead">TechSolutions accompagne les entreprises dans leur transformation digitale avec des solutions sur mesure, performantes et sécurisées.</p>
         <div class="hero-ctas">
-          <a href="Contact.html" class="btn btn-cta">Demander un devis <span class="chev">›</span></a>
-          <a href="Services.html" class="btn btn-outline">Nos services</a>
+          <a href="Contact.php" class="btn btn-cta">Demander un devis <span class="chev">›</span></a>
+          <a href="Services.php" class="btn btn-outline">Nos services</a>
         </div>
       </div>
 
